@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+div > p {
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-bottom: 1px dashed #ccc;
+}
+
+.input-area {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.imcomplete-area {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.complete-area {
+  padding: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.list-row:not(:last-child) {
+  border-bottom: 1px dotted #ccc;
+}
+
+.list-row::before {
+  content: "・";
+}
+
+button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  line-height: 1;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  font-size: 12px;
+}
